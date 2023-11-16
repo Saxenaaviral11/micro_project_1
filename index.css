@@ -1,0 +1,129 @@
+body{
+    margin: 10px;
+    font-family: Inter;
+}
+.header-grid{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+.left-content,.right-content{
+    background-color: #FFCD9E;
+}
+
+.heading-text,.descriptive-text,.bold-text,.disclaimer-text{
+    justify-content: center;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.heading-text{
+    font-weight: 700;
+    font-size: 36px;
+}
+.descriptive-text{
+    font-size: 20px;
+    font-weight: 300;
+    padding-right: 140px;
+    color:#484848;
+}
+.bold-text{
+    font-weight: bold;
+    font-size: 20px;
+}
+.disclaimer-text{
+    color: white;
+    margin-left: 120px;
+    font-size: 16px;
+}
+
+.disclaimer-text-1b{
+    color: white;
+    margin-left: 104px;
+    font-size: 16px;
+}
+.image-man {
+    max-width: 100%;
+    max-height: 100%;
+    width:70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left-content{
+    padding: 10%;
+}
+
+.right-content{
+    position: relative;
+}
+
+.encapsulation{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.input-area{
+    padding: 16px;
+    width: 350px;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.register{
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-weight: 500;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+::placeholder{
+    text-align: left;
+    font-size: 15px;
+    font-family: Inter;
+    color: gray;
+    font-weight: 500;
+}
+
+.list2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+    list-style: none;
+    line-height: 25px;
+    font-weight: 400;
+}
+.list1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    list-style: none;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.footer-left-content{
+    margin-left: 170px;
+}
+.footer-right-content{
+    margin-right: 180px;
+}
+
+.resize-logo{
+    height: 17px;
+}
